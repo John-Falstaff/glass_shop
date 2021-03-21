@@ -1,10 +1,82 @@
 @import "settings"
 
-h1
-  color: $grey
+// home box
 
-.box
-  @include bg_grey
-  //width: 100px
-  //height: 100px
+.header
+  display: flex
+  justify-content: space-between
+  margin-top: 20px
+  @media (min-width: 320px) and (max-width: 550px)
+    justify-content: space-around
+    margin: 20px auto
+  &_icon
+    display: block
+    width: 100px
+    height: 100px
+    @media (min-width: 320px) and (max-width: 550px)
+      width: 60px
+      height: 60px
+    img
+      width: 100%
+
+.nav
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+  margin-left: 30px
+  @media (min-width: 320px) and (max-width: 550px)
+    display: none
+  &_top
+    display: flex
+    justify-content: space-between
+    &_wrapper
+      &_item
+        margin-right: 20px
+        text-decoration: none
+        color: $grey
+    &_tel
+      display: block
+      text-decoration: none
+      color: $black
+      font-weight: bold
+      .fa-phone-alt
+        padding: 7px
+        background-color: $green
+        border-radius: 50%
+        font-size: 12px
+        color: $white
+        text-align: center
+        align-self: center
+        margin-right: 5px
+  &_bottom
+    display: flex
+    justify-content: space-between
+    &_item
+      display: block
+      color: $black
+      text-decoration: none
+      text-transform: uppercase
+      margin-right: 14px
+      white-space: nowrap
+      font-weight: bold
+      border-bottom: 1px solid transparent
+      &:hover
+        border-bottom: 1px solid $black
+
+.mobile_nav
+  display: none
+  @media (min-width: 320px) and (max-width: 550px)
+    display: flex
+  &_tel
+    display: block
+    align-self: center
+    text-decoration: none
+    color: $black
+    font-size: 18px
+    font-weight: bold
+    text-align: center
+
+
+
+
 
