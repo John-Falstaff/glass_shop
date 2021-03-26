@@ -138,4 +138,93 @@ body {
   text-align: center;
 }
 
+/* ******** PAGE ONE ******* */
+.text_wrapper {
+  text-align: center;
+}
+
+.title_text_one_page,
+.text_wrapper_main_text {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.glazing_wrappeer {
+  margin: 20px;
+}
+
+.glazing_wrappeer_one_icon {
+  width: 16%;
+}
+.glazing_wrappeer,
+.glazing_wrappeer_one,
+.glazing_wrappeer_two {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title_text_one_page {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.title_text_one_page {
+  text-align: center;
+}
+
+.form_box_wrapper_switch {
+  margin: 50px;
+  text-align: center;
+}
+
+.form_wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.choice_box {
+  width: 300px;
+  height: 100px;
+  background-color: #aaa2a2b7;
+}
+
+.form_wrapper_right_calculator_cost {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  padding: 40px 20px;
+  margin: 30px;
+  width: 40%;
+  height: 15%;
+  background-color: #5DC044;
+  border-radius: 5px;
+}
+
+.form_wrapper_right_input {
+  display: flex;
+  justify-content: space-around;
+}
+
+.input_calculator_cost {
+  width: 60px;
+  padding: 8px 6px;
+  outline: none;
+  border-radius: 4px;
+  
+}
+  
+.form_button {
+  width: 200px;
+  padding: 15px;
+  margin: 30px;
+  color: #fff;
+  font-size: 24px;
+  background-color: #EF9C3D;
+  text-align: center;
+  border-radius: 50px;
+  border: none;
+}
+
+
+
 /*# sourceMappingURL=styles.css.map */
